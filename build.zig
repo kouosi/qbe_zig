@@ -49,6 +49,8 @@ pub fn build(b: *std.Build) !void {
             "qbe/copy.c",
             "qbe/emit.c",
             "qbe/fold.c",
+            "qbe/gcm.c",
+            "qbe/gvn.c",
             "qbe/live.c",
             "qbe/load.c",
             "qbe/main.c",
@@ -101,6 +103,8 @@ pub fn build(b: *std.Build) !void {
             "qbe/copy.c",
             "qbe/emit.c",
             "qbe/fold.c",
+            "qbe/gcm.c",
+            "qbe/gvn.c",
             "qbe/live.c",
             "qbe/load.c",
             "src/lib.c", // lib.c instead of main.c
